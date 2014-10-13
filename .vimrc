@@ -1,6 +1,6 @@
 " Use the Solarized Dark theme
 set background=dark
-colorscheme solarized
+colorscheme base16-default
 
 " Make Vim more useful
 set nocompatible
@@ -44,7 +44,7 @@ set number
 " Enable syntax highlighting
 syntax on
 " Highlight current line
-set cursorline
+set nocursorline
 " Make tabs as wide as two spaces
 set tabstop=2
 " Show “invisible” characters
